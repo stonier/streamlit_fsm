@@ -17,6 +17,9 @@ def show():
     st.button("Plus one!", on_click=increment)
 
     if st.session_state.counter >= 50:
-        st.success("King of counting there! Your trophy for reaching 50: 🏆")
+        st.success("You have become one with the king of carbonara - 50 tickles! 🏆")
     elif st.session_state.counter >= 10:
-        st.warning("You have been blessed by the noodly appendages with 10 tickles!")
+        st.warning("You have been blessed by his noodly appendages - 10 tickles!")
+
+if __name__ == "__main__":
+    show()
